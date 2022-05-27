@@ -26,7 +26,7 @@
 |Номер варианта | ФИО | Вид исключения | Тест | Reset Vecotor | Trap Vector | Обработчик
 
 | 1
-| Баранец Максим
+| Якупов Данис
 | Illegal instruction
 | isa/rv32mi/illegal.S
 | 0x400
@@ -34,7 +34,7 @@
 | Вывод строки «illegal»
 
 | 2
-| Криворотова Полина
+| Мальцев Иван
 | Breakpoint
 | isa/rv32mi/sbreak.S
 | 0x1000
@@ -42,7 +42,7 @@
 | Вывод cтроки «BP»
 
 | 3
-| Стручинский Артем
+| Попов Савелий
 | Illegal instruction
 | isa/rv32mi/illegal.S
 | 0x2000
@@ -50,7 +50,7 @@
 | Вывод строки «illexc»
 
 | 4
-| Бондаренко Михаил
+| Табунщик Сергей
 | Breakpoint
 | isa/rv32mi/sbreak.S
 | 0x800
@@ -58,7 +58,7 @@
 | Вывод строки «break»
 
 | 5
-| Смирнов Александр
+| Булыгин Александр
 | Instruction address misaligned
 | isa/rv32mi/ma_fetch.S
 | 0xA000
@@ -66,7 +66,7 @@
 | Вывод строки «misalign»
 
 | 6
-| Мирошниченко Владислав
+| Зенкин Владислав
 | Environment call from M-mode
 | isa/rv32mi/scall.S
 | 0xB000 
@@ -74,12 +74,20 @@
 | Вывод строки «envcall»
 
 | 7
-| Тищук Богдана
-| Индивидуальное задание
-| -----
-| -----
-| -----
-| -----
+| Мостовая Валерия
+| Instruction address misaligned
+| isa/rv32mi/ma_fetch.S
+| 0xA000
+| 0x1000
+| Вывод строки «misalign»
+
+| 8
+| Салонина Екатерина
+| Illegal instruction
+| isa/rv32mi/illegal.S
+| 0x800
+| 0x400
+| Вывод строки «illegal instruction»
 
 |=== 
 
