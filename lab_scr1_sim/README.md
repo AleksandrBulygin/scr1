@@ -3,8 +3,7 @@
 ## Задание
 | Номер варианта  | Вид исключения | Тест | Reset Vector | Trap Vector | Обработчик |
 | --- | --- | --- | --- | --- | --- |
-| 5  | Instruction address misaligned  | isa/rv32mi/ma_fetch.S | 0xA000 | 0x8c0 | Вывод строки
-«misalign»|
+| 5  | Instruction address misaligned  | isa/rv32mi/ma_fetch.S | 0xA000 | 0x8c0 | Вывод строки «misalign»|
 
 ## Ход работы
 1. Изменен список тестов в файле **.../scr1/sim/tests/riscv_isa/rv32_tests.inc**.
